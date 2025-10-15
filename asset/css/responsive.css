@@ -5,6 +5,27 @@
         display: flex !important;
     }
 
+    .topic {
+        font-size: 22px;
+    }
+
+    .accordion-body {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .accordion-header {
+        font-size: 14px !important;
+    }
+
+    .accordion-button:not(.collapsed) {
+        color: white;
+    }
+
+    .text-head {
+        font-size: 20px;
+    }
+
     .employee {
         display: none !important;
     }
@@ -15,7 +36,7 @@
     } */
     .lis {
         font-family: initial;
-        font-size: 17px;
+        font-size: 14px;
     }
 
     nav {
@@ -53,21 +74,22 @@
 
     #about {
         opacity: 0.9;
-        padding: 20px 10px !important;
+        padding: 45px 10px !important;
     }
 
     .content {
         padding: 5px !important;
+        font-size: 13px;
     }
 
     #projects {
         opacity: 1 !important;
-        padding: 20px 10px !important;
+        padding: 45px 10px !important;
     }
 
     #contact {
         opacity: 0.9 !important;
-        padding: 20px 5px !important;
+        padding: 45px 5px !important;
     }
 
     .raw {

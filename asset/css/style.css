@@ -18,11 +18,13 @@ a {
 .social {
 	display: none !important;
 }
-.lis{
+
+.lis {
 	font-family: initial;
 	font-size: 20px;
 }
-ul{
+
+ul {
 	margin: 0px;
 }
 
@@ -76,6 +78,10 @@ ul{
 
 .spa {
 	color: cadetblue;
+}
+
+.accordion-body {
+	color: grey;
 }
 
 .text-head-one {
@@ -232,6 +238,7 @@ li {
 	background-color: cadetblue;
 	padding: 5px 20px;
 	border-radius: 8px;
+	font-family: initial;
 	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
@@ -304,15 +311,16 @@ li {
 	}
 }
 
-#about:hover .flip-box{
+#about:hover .flip-box {
 	.box-front {
-			transform: rotateX(0) rotateY(180deg);
-		}
+		transform: rotateX(0) rotateY(180deg);
+	}
 
-		.box-back {
-			transform: none;
-		}
+	.box-back {
+		transform: none;
+	}
 }
+
 .box-content-wrapper {
 	display: flex;
 	width: 100%;
@@ -1503,4 +1511,8 @@ html {
 	#scrollPercentLabel span {
 		font-size: 16px;
 	}
+}
+
+body {
+	overflow-x: hidden;
 }
