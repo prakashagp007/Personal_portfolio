@@ -1,0 +1,142 @@
+@media only screen and (min-width:300px) and (max-width:700px) {
+
+    .social {
+        display: block !important;
+        display: flex !important;
+    }
+
+    .employee {
+        display: none !important;
+    }
+
+    /* .navbar{
+        background-color: white !important;
+        display: none;
+    } */
+    .lis {
+        font-family: initial;
+        font-size: 17px;
+    }
+
+    nav {
+        & ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            list-style-type: none;
+            column-gap: 5px;
+            margin: 0px;
+            padding: 0px;
+        }
+    }
+
+    #home {
+        opacity: 0.9 !important;
+        padding: 0px !important;
+        /* background: none !important; */
+
+    }
+
+    .dont {
+        display: none !important;
+    }
+
+    .less {
+        padding: 10px !important;
+        text-align: center !important;
+    }
+
+    #services {
+        opacity: 1 !important;
+        padding: 0px !important;
+    }
+
+    #about {
+        opacity: 0.9;
+        padding: 20px 10px !important;
+    }
+
+    .content {
+        padding: 5px !important;
+    }
+
+    #projects {
+        opacity: 1 !important;
+        padding: 20px 10px !important;
+    }
+
+    #contact {
+        opacity: 0.9 !important;
+        padding: 20px 5px !important;
+    }
+
+    .raw {
+        margin-top: 10px !important;
+    }
+
+    footer {
+        opacity: 1 !important;
+    }
+
+    input[type="text"] {
+        height: 40px !important;
+    }
+
+    input[type="email"] {
+        height: 40px !important;
+    }
+
+    .marg {
+        margin-top: 10px !important;
+    }
+
+    .box-panel {
+        display: none;
+    }
+
+    .visi {
+        display: block !important;
+    }
+
+    .project {
+        display: block !important;
+    }
+
+    .images {
+        display: none !important;
+    }
+
+    .cursor {
+        display: none;
+    }
+
+    svg {
+        margin-top: 30px !important;
+    }
+
+    form {
+        margin-top: 20px;
+    }
+
+    ul li {
+        margin: 0px 8px 0px 0px !important;
+    }
+
+    .showall {
+        background-image: url(../images/IMG20230203141046.jpg) !important;
+        background-size: cover;
+        background-attachment: fixed !important;
+    }
+
+
+
+}
+
+
+@media only screen and (min-width:990px) and (max-width:1500px) {
+
+    #navbarSupportedContent {
+        float: left !important;
+    }
+
+}
