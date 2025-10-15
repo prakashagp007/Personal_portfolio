@@ -80,6 +80,7 @@
     .content {
         padding: 5px !important;
         font-size: 13px;
+        font-weight: 200;
     }
 
     #projects {
