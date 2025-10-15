@@ -12,6 +12,7 @@
     .accordion-body {
         font-size: 12px;
         text-align: justify;
+        line-height: 25px;
     }
 
     .accordion-header {
@@ -80,7 +81,7 @@
     .content {
         padding: 5px !important;
         font-size: 13px;
-        font-weight: 400;
+        font-weight: 500;
     }
 
     #projects {
