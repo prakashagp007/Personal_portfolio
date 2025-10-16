@@ -774,12 +774,7 @@ p {
 /* contact */
 
 
-/* new contact */
-svg {
-	/* height: 23rem;
-	margin-right: 4rem; */
-	margin-top: 80px;
-}
+
 
 #envelope {
 	animation: float 2s ease-in-out infinite;
@@ -1483,7 +1478,7 @@ html {
 #scrollPercentLabel {
 	position: fixed;
 	bottom: 0%;
-	right: 0%;
+	left: 4%;
 	transform: translate(-50%, -50%);
 	font-family: "Poppins", sans-serif;
 	font-size: 23px;
