@@ -42,10 +42,7 @@ ul {
 }
 
 #services {
-
 	overflow: hidden;
-	opacity: 0.8;
-
 }
 
 .project {
@@ -54,7 +51,6 @@ ul {
 }
 
 #projects {
-	opacity: 0.9;
 	overflow: hidden;
 }
 
