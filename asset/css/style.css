@@ -70,16 +70,16 @@ ul {
 	flex-wrap: wrap;
 	column-gap: 20px;
 }
-.icn a{
+
+.icn a {
 	font-size: 18px;
 	color: #ffffff;
 	background-color: #5f9ea0;
 	padding: 3px 8px;
 	border-radius: 5px;
 }
-.icn{
-	
-}
+
+.icn {}
 
 .text-head {
 	color: rgba(47, 60, 60, 0.941);
@@ -1459,12 +1459,15 @@ html {
 	outline: 0;
 	box-shadow: 0 0 0 .25rem rgb(95, 158, 160);
 }
-.accordion-button{
+
+.accordion-button {
 	font-family: initial;
 }
-.accordion-button::after{
+
+.accordion-button::after {
 	background-size: 20px !important;
 }
+
 /* scroll */
 
 
@@ -1505,6 +1508,7 @@ html {
 	#scrollPercentLabel {
 		font-size: 28px;
 		padding: 5px 10px;
+		left: 11%;
 	}
 
 	#scrollPercentLabel span {
@@ -1516,8 +1520,8 @@ html {
 @media (max-width: 480px) {
 	#scrollPercentLabel {
 		font-size: 16px;
-		padding: 10px 20px;
-		border-radius: 10px;
+		padding: 5px 10px;
+		border-radius: 5px;
 		/* transform: translateX(-50%); */
 	}
 
