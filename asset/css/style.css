@@ -61,8 +61,25 @@ ul {
 }
 
 
+
 /* container-one */
 
+.social {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	column-gap: 20px;
+}
+.icn a{
+	font-size: 18px;
+	color: #ffffff;
+	background-color: #5f9ea0;
+	padding: 3px 8px;
+	border-radius: 5px;
+}
+.icn{
+	
+}
 
 .text-head {
 	color: rgba(47, 60, 60, 0.941);
@@ -676,7 +693,7 @@ p {
 
 	.prev,
 	.next {
-		font-size: 1.8rem;
+		font-size: 18px;
 	}
 
 	.prev {
@@ -1447,7 +1464,12 @@ html {
 	outline: 0;
 	box-shadow: 0 0 0 .25rem rgb(95, 158, 160);
 }
-
+.accordion-button{
+	font-family: initial;
+}
+.accordion-button::after{
+	background-size: 20px !important;
+}
 /* scroll */
 
 

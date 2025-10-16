@@ -4,6 +4,20 @@
         display: block !important;
         display: flex !important;
     }
+    .project-item img{
+        height: 100px;
+    }
+    .project-caption{
+        font-size: 12px;
+    }
+
+    .accordion-button{
+	font-size: 14px;
+	font-family: initial;
+}
+.accordion-button::after{
+	background-size: 15px !important;
+}
 
     .topic {
         font-size: 22px;
