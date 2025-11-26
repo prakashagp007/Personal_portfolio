@@ -345,40 +345,21 @@ $window.trigger('scroll');
 // text repeat
 const text = document.querySelector('.spa-one');
 
+// const text = document.getElementById("text");
+
 const load = () => {
-  setTimeout(() => {
-    text.textContent = "";
-  }, 0);
-  setTimeout(() => {
-    text.textContent = "D";
-  }, 300);
-  setTimeout(() => {
-    text.textContent = "De";
-  }, 600);
-  setTimeout(() => {
-    text.textContent = "Dev";
-  }, 900);
-  setTimeout(() => {
-    text.textContent = "Deve";
-  }, 1200);
-  setTimeout(() => {
-    text.textContent = "Devel";
-  }, 1500);
-  setTimeout(() => {
-    text.textContent = "Develo";
-  }, 1800);
-  setTimeout(() => {
-    text.textContent = "Develop";
-  }, 2100);
-  setTimeout(() => {
-    text.textContent = "Develope";
-  }, 2400);
-  setTimeout(() => {
-    text.textContent = "Developer";
-  }, 2700);
-}
-load()
-setInterval(load, 4000);
+  const words = "Web Developer | Freelancer";
+  text.textContent = "";
+  words.split("").forEach((char, index) => {
+    setTimeout(() => {
+      text.textContent += char;
+    }, index * 100); // typing speed
+  });
+};
+
+load();
+setInterval(load, 4000); // repeat
+
 
 
 
