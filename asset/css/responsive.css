@@ -3,6 +3,7 @@
     .social {
         display: block !important;
         display: flex !important;
+        justify-content: start;
     }
 
     .project-item img {
@@ -22,7 +23,43 @@
         background-size: 15px !important;
     }
 
+    .services-section {
+        padding: 30px 0px;
+    }
 
+    .service-card h3 {
+        font-size: 13px;
+        font-weight: 700;
+        margin-bottom: 15px;
+        font-family: initial;
+        color: #3d3d3db6;
+    }
+
+    .service-card p {
+        font-size: 10px;
+        color: gray;
+        text-align: justify;
+    }
+
+    .service-card {
+        height: auto;
+        overflow: hidden;
+        padding: 10px;
+
+    }
+
+    .icon-box {
+        width: 50px;
+        height: 50px;
+        font-size: 21px;
+    }
+
+    .row14 {
+        --bs-gutter-x: 10px !important;
+    }
+.services-container {
+    margin-top: 25px;
+}
 
     .topic {
         font-size: 22px;
@@ -45,7 +82,8 @@
     .text-head {
         font-size: 24px;
     }
-    .bdg{
+
+    .bdg {
         display: flex;
         flex-wrap: wrap;
         overflow: hidden;

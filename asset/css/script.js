@@ -1,3 +1,7 @@
+// projects
+// projects
+
+
 jQuery(document).ready(function () {
   jQuery('.skillbar').each(function () {
     jQuery(this).find('.skillbar-bar').animate({
@@ -345,7 +349,7 @@ $window.trigger('scroll');
 // text repeat
 const text = document.querySelector('.spa-one');
 
-// const text = document.getElementById("text");
+
 
 const load = () => {
   const words = "Web Developer | Freelancer";
