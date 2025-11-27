@@ -53,6 +53,9 @@
         height: 50px;
         font-size: 21px;
     }
+    .crd_car {
+	padding: 20px 10px;
+}
 
     .row14 {
         --bs-gutter-x: 10px !important;
@@ -154,7 +157,13 @@
 
     #projects {
         opacity: 1 !important;
-        padding: 45px 10px !important;
+        padding: 45px 0px !important;
+    }
+    .prj-btn{
+        margin-bottom: 20px;
+    }
+    .prj-title{
+        font-size: 24px;
     }
 
     #contact {
