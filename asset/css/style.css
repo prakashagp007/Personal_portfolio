@@ -1148,7 +1148,7 @@ nav {
 	z-index: 5;
 	width: 100%;
 	height: 70px;
-	background: cadetblue;
+	background: white;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -1577,7 +1577,6 @@ html {
 }
 
 .prj-list li {
-	/* margin-bottom: 6px; */
 	font-size: 15px;
 	color: #7e7e7e;
 	position: relative;
@@ -1601,7 +1600,12 @@ html {
 	font-family: initial;
 }
 
-/* Images */
+.menus ul {
+	background: #6ebcbf70;
+	padding: 10px;
+	border-radius: 7px;
+}
+
 .prj-img {
 	border-radius: 10px;
 	transition: 0.3s ease;
@@ -1618,6 +1622,7 @@ html {
 	background-color: #337476;
 	color: white;
 }
-.font-sty{
+
+.font-sty {
 	font-family: initial;
 }
