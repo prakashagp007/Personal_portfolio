@@ -246,9 +246,10 @@ label {
     }
 
     .showall {
-        background-image: url(../images/IMG20230203141046.jpg) !important;
+        /* background-image: url(../images/IMG20230203141046.jpg) !important;
         background-size: cover;
-        background-attachment: fixed !important;
+        background-attachment: fixed !important; */
+        background-color: white;
     }
 
 

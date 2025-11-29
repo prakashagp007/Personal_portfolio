@@ -479,22 +479,7 @@ window.addEventListener('scroll', revealOnScroll);
 revealOnScroll();
 
 
-// scroll percentage
 
-
-$(document).ready(function () {
-
-  $(window).on("scroll", function () {
-    const scrollTop = $(window).scrollTop();
-    const docHeight = $(document).height();
-    const winHeight = $(window).height();
-    const scrollPercent = (scrollTop / (docHeight - winHeight)) * 100;
-    const scrollPercentRounded = Math.round(scrollPercent);
-
-    $('#scrollPercentLabel span').text(scrollPercentRounded);
-  });
-
-});
 
 
 //
