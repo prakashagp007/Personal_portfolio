@@ -40,19 +40,22 @@
     }
 
     .timeline-content h4 {
-	font-size: 18px;
-	font-weight: 500;
-}
-label {
-  display: inline-block;
-  font-family: Lemonada;
-  font-size: 12px;
-}
-.btn-drk {
+        font-size: 18px;
+        font-weight: 500;
+    }
 
-	font-size: 11px !important;
-	font-family: Lemonada !important;
-}
+    label {
+        display: inline-block;
+        font-family: Lemonada;
+        font-size: 12px;
+    }
+
+    .btn-drk {
+
+        font-size: 11px !important;
+        font-family: Lemonada !important;
+    }
+
     .service-card p {
         font-size: 10px;
         color: gray;
@@ -127,7 +130,7 @@ label {
         display: none;
     } */
     .lis {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     nav {
@@ -208,9 +211,10 @@ label {
     input[type="text"] {
         height: 40px !important;
     }
+
     .contact-item {
-	font-size: 15px;
-}
+        font-size: 15px;
+    }
 
     input[type="email"] {
         height: 40px !important;
