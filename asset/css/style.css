@@ -276,7 +276,7 @@ li {
 .topic {
 	font-size: 32px;
 	font-weight: 700;
-	color: #282828;
+	color: #428ccc;
 	/* soft white/grey */
 	position: relative;
 	display: inline-block;
@@ -1144,7 +1144,7 @@ form {
 	justify-content: center;
 	color: whitesmoke;
 	background: #212121;
-	background-image: url("../images/Picsart_22-07-16_18-32-23-628-04.jpeg");
+	background-image: url("../images/go_coding_images.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -1410,14 +1410,14 @@ html {
 
 .service-card:hover {
 	transform: translateY(-10px);
-	border-color: #5f9ea0;
 	box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.15);
+	scale: 0.9;
 }
 
 .icon-box {
 	width: 80px;
 	height: 80px;
-	background: #5f9ea0;
+	background: #ffffff;
 	color: white;
 	margin: 0 auto 20px;
 	border-radius: 50%;
@@ -1426,11 +1426,12 @@ html {
 	align-items: center;
 	font-size: 32px;
 	transition: 0.3s;
+
 }
 
 .service-card:hover .icon-box {
-	background: #337476;
 	transform: rotate(10deg);
+	scale: 1.1;
 }
 
 .service-card h3 {
@@ -1607,11 +1608,11 @@ label {
 
 /* Title */
 .prj-title {
-	font-size: 35px;
+	font-size: 30px;
 	font-weight: 500;
 	color: rgb(62, 109, 110);
 	margin-bottom: 10px;
-	font-family: IM Fell Great Primer SC;
+	font-family: merienda;
 }
 
 /* Description */
@@ -1716,6 +1717,7 @@ label {
 	align-items: center;
 	padding: 6px 0;
 	font-size: 18px;
+	font-family: merienda;
 	gap: 12px;
 	transition: 0.3s ease;
 }
@@ -1732,4 +1734,8 @@ label {
 
 .contact-item a:hover {
 	color: cadetblue;
+}
+
+.service_img {
+	width: 100%;
 }
