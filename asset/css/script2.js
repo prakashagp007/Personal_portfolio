@@ -302,6 +302,7 @@ animate();
 
 
 /* Project tabs */
+/* Project tabs */
 const projectTabs = document.querySelectorAll('.project-tab');
 const projectPanels = document.querySelectorAll('.tab-panel');
 projectTabs.forEach(tab => tab.addEventListener('click', () => {
@@ -310,7 +311,11 @@ projectTabs.forEach(tab => tab.addEventListener('click', () => {
         t.classList.toggle('active', on);
         t.setAttribute('aria-selected', on ? 'true' : 'false');
     });
-    projectPanels.forEach(p => p.classList.toggle('active', p.id === tab.dataset.target));
+    projectPanels.forEach(p => {
+        const on = p.id === tab.dataset.target;
+        p.classList.toggle('active', on);
+        if (on) p.querySelectorAll('.reveal').forEach(el => el.classList.add('in-view'));
+    });
 }));
 
 
