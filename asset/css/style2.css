@@ -1132,7 +1132,7 @@ h4 {
 
 /* ============ PROJECTS ============ */
 .projects-grid {
-    display: grid;
+    display: grid !important;
     grid-template-columns: 1fr 1fr;
     gap: 26px;
 }
@@ -1904,4 +1904,64 @@ h4 {
         font-size: 9.5px;
         padding: 6px 2px;
     }
+}
+
+/* Project tabs */
+.project-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 0 auto 40px;
+}
+
+.project-tab {
+    font-family: var(--font-head);
+    font-weight: 600;
+    font-size: 14.5px;
+    padding: 12px 26px;
+    border-radius: 100px;
+    border: 1px solid var(--line);
+    background: var(--soft);
+    color: var(--dark);
+    cursor: pointer;
+    transition: all .25s var(--ease);
+}
+
+.project-tab:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.project-tab.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--cream);
+    box-shadow: 0 14px 28px -14px rgba(236, 91, 56, .6);
+}
+
+.tab-panel {
+    display: none;
+}
+
+.tab-panel.active {
+    display: grid;
+    animation: panelFade .45s var(--ease);
+}
+
+@keyframes panelFade {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+/* WordPress cards have no thumbnail strip, so give the body a little top room */
+.project-media+.project-body {
+    padding-top: 24px;
 }

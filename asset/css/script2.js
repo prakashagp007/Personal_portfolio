@@ -299,3 +299,18 @@ function animate() {
     requestAnimationFrame(animate);
 }
 animate();
+
+
+/* Project tabs */
+const projectTabs = document.querySelectorAll('.project-tab');
+const projectPanels = document.querySelectorAll('.tab-panel');
+projectTabs.forEach(tab => tab.addEventListener('click', () => {
+    projectTabs.forEach(t => {
+        const on = t === tab;
+        t.classList.toggle('active', on);
+        t.setAttribute('aria-selected', on ? 'true' : 'false');
+    });
+    projectPanels.forEach(p => p.classList.toggle('active', p.id === tab.dataset.target));
+}));
+
+
